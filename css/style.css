@@ -1,1 +1,58 @@
 /*ini css*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}.navigation>div{
+    background-image: url(assets/black-owl-head-pixel-art-style_475147-1220.avif);
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+    border-radius: 50%;
+}
+.navigation>nav>button{
+    height: 32px;
+    border: 1px solid black;
+    margin: 0;
+    background-color: white;
+}
+.content-container>header{
+    text-align: center;
+}
+.core-container{
+    display: flex;
+}
+.core-item{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.core-item>header>h2{
+    text-align: center;
+}
+.item-form{
+    text-align: center;
+}
+.item-right{
+    background-color: azure;
+    border: 0;
+    border-radius: 8px;
+}
+.item-form>input{
+    height: 25px;
+    width: 70%;
+    margin-left: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.our-package-coneten{
+    background-color: antiquewhite;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
