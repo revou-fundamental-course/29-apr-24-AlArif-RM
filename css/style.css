@@ -6,7 +6,9 @@
     padding-right: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-}.navigation>div{
+}
+
+.navigation>div{
     background-image: url(assets/black-owl-head-pixel-art-style_475147-1220.avif);
     border: 1px solid black;
     height: 32px;
@@ -14,45 +16,91 @@
     background-size: contain;
     border-radius: 50%;
 }
+  
 .navigation>nav>button{
     height: 32px;
     border: 1px solid black;
     margin: 0;
     background-color: white;
 }
-.content-container>header{
-    text-align: center;
-}
+
 .core-container{
     display: flex;
 }
+
+.content-container>header{
+    text-align: center;
+}
+
 .core-item{
-    height: 200px;
+    height: 300px;
     width: 100%;
     border: 1px solid black;
     margin: 10px;
 }
+
+.item-letf{
+height: 300px;
+}
+
+.image{
+    display: flex;
+    height: 303px;
+}
+
+.image-letf{
+    background-image: url(assets/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 600px;
+}
+
+.image-right{
+    background-image: url(assets/elektronik-770x770-770x770.jpg);
+flex-basis: 50%;
+width: 303px;
+height: 303px;
+background-size: cover;
+}
+
 .core-item>header>h2{
     text-align: center;
 }
+
 .item-form{
-    text-align: center;
+  text-align: left;
 }
+
 .item-right{
     background-color: azure;
     border: 0;
     border-radius: 8px;
+    flex-basis: 60%;
+    height: 400px;
 }
+
 .item-form>input{
     height: 25px;
-    width: 70%;
+    width: 80%;
     margin-left: 8px;
     border: 1px solid gray;
     border-radius: 10px;
 }
+
+.pilihan{
+    height: 30px;
+    width: 80.6%;
+    margin-left: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}   
+
+
 .our-package-coneten{
     background-color: antiquewhite;
     height: 100px;
     align-content: center;
     text-align: center;
 }
+
