@@ -8,9 +8,9 @@
 </head>
 <body>
     <header class="navigation">
-        <div class="navigation>div" style="background-image: url(assets/black-owl-head-pixel-art-style_475147-1220.avif);"></div>
+        <div class="logo" style="background-image: url(assets/black-owl-head-pixel-art-style_475147-1220.avif);"></div>
 
-        <nav class="navigation>nav>button">
+        <nav class="navigation">
             <button>home</button>
             <button>Our Package</button>
             <button>Call Us</button>
@@ -19,50 +19,127 @@
     <hr/>
     <article>
         <section class="content-container">
-            <header class="content-container>header">
-                <h1>Owl Shop </h1>
-                <h3>Owl Shop Provides All Electronic Item </h3>
+            <header class="content-container-header">
+                <h1>Owl Shop</h1>
+                <h3>Owl Shop Provides All Electronic Item</h3>
             </header>
         </section>    
         <article class="core-container">
-            <div class="core-item item-letf">
+            <div class="core-item item-left">
+                <div class="slide">
+                    <img class="image" src="assets/alat-elektronik.jpg" style="display: none;">
+                    <img class="image" src="assets/barang-elektronik_20180823_121413.jpg" style="display: none;">
+                    <img class="image" src="assets/harga-barang-elektronik.jpg" style="display: none;">
+                    <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1)">&#10095;</a>
+                </div>
+           
+                <p>Jika Anda ingin hemat 5% uang anda segera belanja barang elektronik di Owl Shop. Owl Shop menyediakan semua barang elektronik, mulai dari perabotan rumah tangga, Konsol game, Komputer, hingga Smartphone.</p>
                 <section style="display: flex;">
-                    <div class="image image-letf" style="background-image: url(assets/images.jpg);">
-
+                    <div class="namberIntroduction"><h1>1</h1></div>
+                    <div class="introduction">
+                        <p>1% bungga untuk pembayaran kredit maksimal 6 bulan dan 3% untuk 12 bulan untuk setiap bulannya </p>
                     </div>
-                    <div class="image image-right" style="background-image: url(assets/elektronik-770x770-770x770.jpg);">
-
+                </section>
+                <section style="display: flex;">
+                    <div class="namberIntroduction"><h1>2</h1></div>
+                    <div class="introduction">
+                        <p>kami bisa mengirim barang di seluruh Indonesia tanpa biaya sedikit pun </p>
+                    </div>
+                </section>
+                <section style="display: flex;">
+                    <div class="namberIntroduction"><h1>3</h1></div>
+                    <div class="introduction">
+                        <p>Tokoh kami juga meyediakan layanan service yang bisa anda panggil kapanpun</p>
                     </div>
                 </section>
             </div>
             <div class="core-item item-right">
                 <header>
-                    <h2 class="core-item>header>h2">content us</h2>
-                    <P>Seles akan menghubungi anda 1x24 Jam setelah data kami terima.</P></br>
+                    <h2>Content Us</h2>
+                    <p>Customer service kami akan menghubungi Anda dalam waktu 1x24 jam setelah kami menerima data Anda.</p>
                 </header>
     
-                <section class="item-form">
-                    <label>  Unsername : </label></br>
-                    <input class="item-form>input" type="text"></br></br>
-                    <label>  Email Address : </label></br>
-                    <input class="item-form>input" type="gmsil" placeholder="frist name"></br></br>
-                    <label for="cars">Choose a car:</label></br>
-                    <select id="cars" class="pilihan">
-                        <option value="">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
+                <form class="item-form">
+                    <label>Username :</label>
+                    <input class="username" type="text" placeholder="Username">
+                    
+                    <label>Phone Number :</label>
+                    <input class="phoneNumber" type="tel" pattern="[0-9]*" placeholder="Phone Number">
+                    
+                    <label>Email Address :</label>
+                    <input class="emailAddress" type="email" placeholder="Email Address">
+                    
+                    <label for="barang">What are you interested in? :</label>
+                    <select id="barang" class="pilihan">
+                        <option value="" disabled selected hidden>silahkan pilih barang anda</option>
+                        <option value="Perabotan rumah tangga">Perabotan rumah tangga</option>
+                        <option value="Komputer">Komputer</option>
+                        <option value="Smartphone">Smartphone</option>
+                        <option value="Konsol game">Konsol game</option>
                     </select>
-                </section>
+                </br>
+                    <button type="button" class="send-btn">sumbit</button>
+                </form>
             </div>
         </article>
         <section>
-            <h1 class="our-package-coneten">Our Package</h1>
+            <div class="header-our-package-content">
+                <header>
+                    <h1>Our Package</h1>
+                </header>
+            </div>
+            <div>
+              <section class="our-package-content">
+                    <div class="ikon-bintang" style="background-image: url(assets/pngtree-vector-star-icon-png-image_924967-removebg-preview.jpg)"></div>
+                    <div class="saran">
+                        <h3>Konsol game</h3>
+                        <p>playstation 5 menjadi paling banyak di beli di tokoh kami denggan jumlah mencapai 10000pcs pada tahun 2023</p>
+                    </div>
+                    <div class="ikon-bintang" style="background-image: url(assets/pngtree-vector-star-icon-png-image_924967-removebg-preview.jpg)"></div>
+                    <div class="saran">
+                        <h3>Smartphone</h3>
+                        <P>VIVO V21A menjadi paling banyak di beli di tokoh kami denggan jumlah mencapai 34906pcs pada tahun 2023</P>
+                    </div>
+                    <div class="ikon-bintang" style="background-image: url(assets/pngtree-vector-star-icon-png-image_924967-removebg-preview.jpg)"></div>
+                    <div class="saran">
+                        <h3>Perabotan rumah tangga</h3>
+                        <p>LG mesin cuci 3535ph menjadi paling banyak di beli di tokoh kami denggan jumlah mencapai 25452pcs pada tahun 2023</p>
+                    </div>
+              </section>
+              <section class="our-package-content">
+                    <div class="ikon-lampu" style="background-image: url(assets/pngtree-light-bulb-icon-vector--light-bulb-ideas-symbol-illustration-png-image_1692654.jpg);"></div>
+                    <div class="saran">
+                        <h3>Smartphone</h3>
+                        <p>Saya menyarankan Smartphone Infinx 30HOT dengan kualitas lebih baik dari pada VIVO V21A  </p>
+                    </div>
+                    <div class="ikon-lampu" style="background-image: url(assets/pngtree-light-bulb-icon-vector--light-bulb-ideas-symbol-illustration-png-image_1692654.jpg);"></div>
+                    <div class="saran">
+                        <h3>Perabotan rumah tangga</h3>
+                        <p>Mungkin anda bisa mencoba membeli LG mesin cuci 1241ph dengan harga lebih murah dari LG mesin cuci 3535ph dengan kualitas hampir mengimbangi</p>
+                    </div>
+                    <div class="ikon-lampu" style="background-image: url(assets/pngtree-light-bulb-icon-vector--light-bulb-ideas-symbol-illustration-png-image_1692654.jpg);"></div>
+                    <div class="saran">
+                        <h3>SERVICE</h3>
+                        <p>Mungkin anda bisa mencoba layanan service kami jika anda memiliki kendala dengan barang elektronik anda</p>
+                    </div>
+              </section>
+              <hr>
+              <section class="argument">
+                <h2><b>BERIKAN PENDAPAT ANDA</b></h2>
+                <P>Dengan memberikan pendapat anda tokoh ini bisah menjadi lebih baik.Cika anda ingin memberikan saran segera hubungi kami melalui tombol di bawah ini</P>
+                <button>CALL TO ACTION</button>
+              </section>
+            </div>
         </section>
-        
-    
     </article>
+    <hr>
+     <section class="hakcipta">
+        <h1>OWL SHOP</h1>
+        <p>website ini dibut untuk memenuhi tugas dari REVOU</p>
+        <P>Terms privacy policy &copy; 2024 Copilot</P>
+
+     </section>
     <script src="js/scrip.js"></script>
 </body>
 </html>    
-    
