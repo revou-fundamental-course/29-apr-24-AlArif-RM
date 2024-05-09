@@ -35,7 +35,7 @@
 }
 
 .item-left { /* Perbaikan nama kelas dari item-letf menjadi item-left */
-    height: 600px;
+    height: 700px;
 }
 
 .image {
@@ -205,5 +205,9 @@ margin-top: 25px;
     .our-package-content{
         display: block;
     }
-    
+    .argument{
+       width: 320px;
+        
+    }
+
 }
